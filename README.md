@@ -13,7 +13,7 @@ https://paulinendemo.github.io/project2/
 ## Technology Used 
 HTML- which was used to build the structure of the pages.
 CSS - which was used to style the pages.
-Ja
+Javascript-which was used to make the page functional
 
 ## Reference
 Materialize CSS
