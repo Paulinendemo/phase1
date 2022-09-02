@@ -40,20 +40,22 @@
   }
   .food {
     color: blue;
-    font-weight: 700;
+    font-weight: 900;
     font-style: italic;
   }
   button {
     cursor: pointer;
-    color: aqua;
+    color:blue;
     display: flex;
-    float: right;
+    float: left;
     font-size: x-large;
+    
   }
   #img {
-    width: 300px;
+    width: 400px;
     height: 300px;
     border-radius: 50px;
+    align-items: center;
   }
   #category {
     font-weight: 700;
@@ -63,9 +65,9 @@
   }
   h1 {
     margin-left: 20%;
-    background-color: yellowgreen;
+    background-color: blue;
     width: fit-content;
   }
   h4{
-    margin-left: 90%;
+    margin-left: 45px;
   }
