@@ -26,7 +26,8 @@
     width: 30%;
     position: relative;
     left: 0;
-    font-size: large;
+    font-size: 25px;
+    justify-content: space-between;
     cursor: pointer;
     list-style: none;
   }
