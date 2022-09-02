@@ -5,7 +5,7 @@ const thumb=document.getElementById("CategoryThumb")
 const description=document.querySelector(".information")
 
 const button=document.getElementById("order-now").addEventListener("click",()=>{
-       alert ("Order done successfuly")
+       alert ("Order done successfuly !!")
     }
 )
 function displayFood(foodObj){
