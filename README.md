@@ -9,7 +9,7 @@ This is a Website which shows different foods and how they are prepared and orde
 
 ## Installation Process
  Click on the link provided bellow to view the site.
- https://paulinendemo.github.io/phase1/
+https://paulinendemo.github.io/phase1/
 ## Technology Used 
 HTML- which was used to build the structure of the pages.
 CSS - which was used to style the pages.
