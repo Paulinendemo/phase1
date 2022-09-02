@@ -4,8 +4,8 @@
 This is a Website which shows different foods and how they are prepared and orders can be made from the page.
 
 ## Installation Requirements 
-computer,tablet or phone
-An access to the Internet
+1.computer,tablet or phone
+2.An access to the Internet
 
 ## Installation Process
  Click on the link provided bellow to view the site.
