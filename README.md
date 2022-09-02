@@ -1,7 +1,7 @@
 ## AgriPlus
 
 ## Description 
-This is a website that shows the Agriculture website. it contains all the information about the AgriPlus.
+This is a Website which shows different foods and how they are prepared and orders can be made from the page.
 
 ## Installation Requirements 
 computer,tablet or phone
