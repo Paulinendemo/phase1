@@ -9,6 +9,16 @@
     padding: 30px;
     min-height: 100vh;
     
+    
+  }
+ #logo{
+  height: 5px;
+  margin-left: 0px;
+
+ }
+  h1 {
+    margin-left: 20%;
+    width: fit-content;
   }
   ul {
     font-size: xx-large;
@@ -22,7 +32,7 @@
     float: left;
     width: 6em;
   }
-  #category1 {
+  #first{
     width: 40%;
     position: relative;
     left: 0;
@@ -31,7 +41,7 @@
     cursor: pointer;
     list-style: none;
   }
-  #done {
+  #display {
     clear: both;
     font-size: 30px;
     margin-left: auto;
@@ -63,12 +73,6 @@
     font-weight: 700;
   }
   .information {
-    font-size: large;
+    font-size: 15px;
   }
-  h1 {
-    margin-left: 20%;
-    background-color: blue;
-    width: fit-content;
-  }
-  
-    
+ 

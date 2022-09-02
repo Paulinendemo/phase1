@@ -1,33 +1,33 @@
-const menu=document.getElementById("category1")
+const menu=document.getElementById("first")
 const image=document.getElementById("img")
 const category=document.getElementById("category")
-const thumb=document.getElementById("CategoryThumb")
+const thumb=document.getElementById("Recipe")
 const description=document.querySelector(".information")
 
-const button=document.getElementById("order-now").addEventListener("click",()=>{
-       alert ("Order done successfuly !!")
+const button=document.getElementById("order").addEventListener("click",()=>{
+       alert ("Order done successfuly !!Delivery will be right away.Thank You.")
     }
 )
-function displayFood(foodObj){
-    category.innerText=foodObj.strCategory
-    description.innerText=foodObj.strInstructions
-    image.src=foodObj.strMealThumb
+function displayItem(value){
+    category.innerHTML=value.strCategory
+    description.innerHTML=value.strInstructions
+    image.src=value.strMealThumb
 }
   fetch("https://www.themealdb.com/api/json/v1/1/search.php?f=e")
-.then(response=>response.json())
+.then(resp=>resp.json())
 .then(jsonData=>{
     console.log(jsonData.meals)
-displayFood(jsonData.meals[0])
-displayMeal(jsonData.meals)
+displayItem(jsonData.meals[0])
+displayFood(jsonData.meals)
 })  
-function displayMeal(arrayOfMeals){
-    arrayOfMeals.forEach(foodObj=>{
+function displayFood(arrayOfMeals){
+    arrayOfMeals.forEach(value=>{
         const li=document.createElement("li")
         li.className="food-category"
-        li.innerText=foodObj.strCategory
+        li.innerHTML=value.strCategory
         menu.append(li)
         li.addEventListener("click",()=>{
-            displayFood(foodObj)
+            displayI(value)
         })
     })
 }
