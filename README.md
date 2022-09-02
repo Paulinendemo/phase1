@@ -1,4 +1,4 @@
-## AgriPlus
+## Watamu Delicacies
 
 ## Description 
 This is a Website which shows different foods and how they are prepared and orders can be made from the page.
