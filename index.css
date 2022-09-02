@@ -33,11 +33,12 @@
   }
   #done {
     clear: both;
-    font-size: larger;
+    font-size: 30px;
     margin-left: auto;
     padding: auto;
     height: 40vh;
     margin-bottom: 10vh;
+    
   }
   .food {
     color: blue;
